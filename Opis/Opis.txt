@@ -1,0 +1,22 @@
+SocialBlog, kreiran na primeru društvenih mreža.
+
+Korisnik ima mogucnost da se registruje na blog sa željenim imenom (username), email-om i željenom lozinkom.
+Korisnicko ime i lozinka se ne može iskoristiti dva ili više puta, odnosno ne može postojati više korisnika
+sa istim podacima izbacice informacije o gresci, dok se lozinka može ponavljati.
+Korisnik se loguje sa odgovarajucim podacima nakon registracije.
+Svaki registrovani korisnik može pisati statuse ili postove, pregledati postove drugih korisnika,
+može menjati svoje postojece postove ili brisati ih, ali ne može menjati ili brisati postove
+drugih korisnika.
+Klikom na link na korisnickom imenu, pregledaju se svi postovi korisnika, a klikom na link na postu
+otvara se taj post.
+Baza sadrži dve tabele User i Post.
+User sadrži id tog user, username, email, password
+Post sadrzi id tog posta, title, content, user_id kao strani kljuc.
+
+Python/Flask
+
+Radio sam u Visual Studio 2017.
+
+
+Ivic Radoslav IT23/2014
+Inženjerstvo informacionih sistema
